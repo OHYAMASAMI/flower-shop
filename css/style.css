@@ -139,6 +139,7 @@ div.intro .hana-right {
     height: 2px;
     background-color: #ccc;
     position: absolute;
+    transition: all 0.5s;
   }
   header #sp-btn span:nth-of-type(1) {
     top: 0;
@@ -175,5 +176,16 @@ div.intro .hana-right {
   }
   header .active {
     display: flex;
+  }
+  header #sp-btn.btn-close span:nth-of-type(1) {
+    transform: rotate(45deg);
+    transform-origin: left;
+  }
+  header #sp-btn.btn-close span:nth-of-type(2) {
+    display: none;
+  }
+  header #sp-btn.btn-close span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    transform-origin: left;
   }
 }/*# sourceMappingURL=style.css.map */

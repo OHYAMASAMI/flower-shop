@@ -140,6 +140,7 @@ div.intro {
         height: 2px;
         background-color: #ccc;
         position: absolute;
+        transition: all 0.5s;
       }
       span:nth-of-type(1) {
         top: 0;
@@ -179,17 +180,19 @@ div.intro {
     .active {
       display: flex;
     }
-    // #sp-btn.btn-close{
-    //   span:nth-of-type(1) {
-    //     transform:  rotate(-45deg);
-    //   }
-    //   span:nth-of-type(2) {
-    //     display: none;
-    //   }
-    //   span:nth-of-type(3) {
-    //     transform:  rotate(45deg);
-    //   }
+    #sp-btn.btn-close{
+      span:nth-of-type(1) {
+        transform:  rotate(45deg);
+        transform-origin: left;
+      }
+      span:nth-of-type(2) {
+        display: none;
+      }
+      span:nth-of-type(3) {
+        transform:  rotate(-45deg);
+        transform-origin: left;
+      }
 
-    // }
+    }
   }
 }
