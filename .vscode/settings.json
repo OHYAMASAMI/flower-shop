@@ -1,0 +1,15 @@
+{
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**",
+    "/js/**"
+  ],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "compressed",
+      "extensionName": ".css",
+      "savePath": "/~/../css",
+      "savePathReplacementPairs": null
+    }
+  ]
+}
